@@ -19,7 +19,7 @@ public:
 
 	friend Transportnoe_sredstvo operator +(Transportnoe_sredstvo& V1, Transportnoe_sredstvo& V2)
 	{
-		return Transportnoe_sredstvo(V1.nazvanie+V2.nazvanie);
+		return Transportnoe_sredstvo(V1.nazvanie + V2.nazvanie);
 	}
 
 
